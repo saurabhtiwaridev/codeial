@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
-
+// routing for this app
+app.use('/', require('./routes'));
 
 
 
