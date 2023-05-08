@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.heading {
+    text-align: center;
+    color: aqua;
+    background-color: white;
+}
+
+.loginBox {
+    border: 2px solid whitesmoke;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin-left: 35%;
+    background-color: white;
+}
+
+.login-button {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1877f2;
+}
+
+.input-field {
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5.2px;
+}

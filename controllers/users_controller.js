@@ -3,7 +3,15 @@ module.exports.profile = function (req, res) {
 }
 
 module.exports.login = function (req, res) {
-    return res.end('<h1> User logged In </h1>');
+    return res.render('login', {
+        title: 'Codial/login'
+    });
+}
+
+module.exports.signup = function (req, res) {
+    return res.render('signup', {
+        title: 'Codeial/Signup'
+    });
 }
 
 module.exports.logout = function (req, res) {
