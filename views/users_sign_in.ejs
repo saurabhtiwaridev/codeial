@@ -10,12 +10,12 @@
 <body>
     <h1 class="heading">Codeial / Sign In</h1>
     <div class="loginBox">
-        <form action="users/login" method="post">
+        <form action="/users/create-session" method="post">
             <div>
-                <input class="input-field" type="email" name="email" placeholder="Email address">
+                <input class="input-field" type="email" name="email" placeholder="Email address" required>
             </div>
             <div>
-                <input class="input-field" type="text" name="password" placeholder="password">
+                <input class="input-field" type="text" name="password" placeholder="password" required>
             </div>
             <div>
                 <button type="submit" class="login-button">Log in</button>
